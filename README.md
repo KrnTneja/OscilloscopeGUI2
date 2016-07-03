@@ -1,9 +1,7 @@
 # OscilloscopeGUI2
   Winter Project 2015 IIT Bombay - USB Oscilloscope cum Function Generator
 
-By
-Kiran Dhope
-Karan Taneja
+By Kiran Dhope and Karan Taneja
 
 It is assumed here that reader here understands what three parts of project viz. Analog, Digital and GUI are all about. In the documentation below (for GUI part), the names of these parts will be implicitly used. 
 
