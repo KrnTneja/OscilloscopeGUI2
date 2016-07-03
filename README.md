@@ -7,7 +7,6 @@ Karan Taneja
 
 It is assumed here that reader here understands what three parts of project viz. Analog, Digital and GUI are all about. In the documentation below (for GUI part), the names of these parts will be implicitly used. 
 
-Feel free to ask questions. You can mail questions to tanejakaran083@gmail.com.
 
 Story Behind the Merge of NetBeans IDE and Processing DE
 
