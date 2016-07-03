@@ -34,10 +34,10 @@ Class GraphPlotter - for collecting the data from Serial communication, grouping
 Class Printer - to print whatever is asked for.
 Sketch.java - to plot the graph.
 
-           PCOscilloscope2 is sub-class of PApplet (Processing Applet). The main(String[]) method of PCOscilloscope2.java instantiates and initializes a PCOscilloscope2 object master. It initializes its fields: session, a OscilloscopeGUI object, plotter, a GraphPlotter object, comm, a TwoWaySerialComm object. It calls main(String) method of PApplet with package name as argument. It then calls the main() method of session, the OscilloscopeGUI object.
-           
+PCOscilloscope2 is sub-class of PApplet (Processing Applet). The main(String[]) method of PCOscilloscope2.java instantiates and initializes a PCOscilloscope2 object master. It initializes its fields: session, a OscilloscopeGUI object, plotter, a GraphPlotter object, comm, a TwoWaySerialComm object. It calls main(String) method of PApplet with package name as argument. It then calls the main() method of session, the OscilloscopeGUI object.
+
 a.       Initializing OscilloscopeGUI object calls its constructor which call its method initComponents() and assigns master to its field master.
-                                                               i.      The initComponents() is the auto-generated code. As name suggests, it initializes components of GUI. It also adds event listeners to the components and sets correct position of components.
+  i.      The initComponents() is the auto-generated code. As name suggests, it initializes components of GUI. It also adds event listeners to the components and sets correct position of components.
 b.      Initializing GraphPlotter object method calls its constructor which assigns master to its field master, assigns gui to its field gui, initializes the field rawFrameData which is byte[] object of size 200.
 c.       Initializing TwoWaySerialComm object calls its constructor which initialized all its fields: master, gui, plotter with arguments sent and printer with a new object.
 d.      The main(String )method of PApplet exists in library. It sets up the Processing window.
